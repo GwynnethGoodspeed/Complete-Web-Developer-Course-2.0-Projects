@@ -1,0 +1,106 @@
+#black-bar-container {
+    background-color: #000000;
+    width:100%;
+    height:50px;
+    top:0px;
+    left:0px;
+    position:absolute;
+    padding-left: 325px;
+    padding-bottom: 18px;
+}
+#black-bar-text a {
+    color:#FFFFFF;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-right:1px solid #FFFFFF;
+    position: relative;
+}
+a:hover {
+    text-decoration:underline;
+}
+#subscribe {
+    height:30px;
+    padding-top: 18px;
+    margin-left: 250px;
+}
+.no-border {
+    border:none !important;
+}
+body {
+    background-color:#FAFAFA;
+}
+#news24-box {
+    background-color: white;
+    border:1px solid lightgrey;
+    width:50%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 350px;
+    padding-top: 30px;
+    padding-left:15px;
+    padding-bottom: 15px;
+}
+#main-logo {
+    height:45px;
+    padding-bottom: 25px;
+}
+#search-box {
+    height:48px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+#box-text a {
+    color:black;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    padding:10px;
+}
+#advertisement {
+    height:90px;
+    margin-top: 223px;
+    margin-left:465px;
+}
+#breaking-box {
+    background-color: white;
+    border:1px solid lightgrey;
+    width:50%;
+    position: absolute;
+    margin-left: 350px;
+    padding-left:15px;
+    padding-bottom: 15px;
+}
+#breaking-text {
+    font-family: sans-serif;
+    font-size:25px;
+    padding-top: 20px;
+}
+p {
+    color: gray;
+    font-size:12px;
+    margin-top: 5px;
+}
+#clock {
+    height:20px;
+    float:left;
+    margin-right: 5px;
+}
+#cricketer {
+    height: 200px;
+    float:left;
+    padding-right: 20px ;
+}
+#headline {
+    color:black; !important;
+    font-weight: bold;
+    font-size: 15px; !important;
+}
+
+
+
+
+
+
+
