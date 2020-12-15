@@ -66,11 +66,12 @@ body {
 #breaking-box {
     background-color: white;
     border:1px solid lightgrey;
-    width:50%;
+    width:33%;
     position: absolute;
     margin-left: 350px;
     padding-left:15px;
     padding-bottom: 15px;
+    padding-right: 15px;
 }
 #breaking-text {
     font-family: sans-serif;
@@ -87,7 +88,7 @@ p {
     float:left;
     margin-right: 5px;
 }
-#cricketer {
+#Ace {
     height: 200px;
     float:left;
     padding-right: 20px ;
@@ -96,6 +97,30 @@ p {
     color:black; !important;
     font-weight: bold;
     font-size: 15px; !important;
+}
+#mostread {
+    background-color: white;
+    border:1px solid lightgrey;
+    width:14%;
+    position: absolute;
+    margin-left: 943px;
+    padding-left:25px;
+    padding-bottom: 15px;
+}
+#mostreadarticles {
+    font-family: sans-serif;
+    font-size:14px;
+}
+#mostreadarticles a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightgrey;
+}
+#clear {
+   clear:both;
+}
+#outsurance {
+    width:235px;
 }
 
 
