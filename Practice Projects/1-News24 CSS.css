@@ -24,6 +24,7 @@ a:hover {
     height:30px;
     padding-top: 18px;
     margin-left: 250px;
+    margin-bottom:-10px;
 }
 .no-border {
     border:none !important;
@@ -99,6 +100,7 @@ p {
     font-size: 15px; !important;
 }
 #mostread {
+
     background-color: white;
     border:1px solid lightgrey;
     width:14%;
@@ -107,6 +109,11 @@ p {
     padding-left:25px;
     padding-bottom: 15px;
 }
+
+#mostread ol {
+    padding-inline-start: 0px;
+}
+
 #mostreadarticles {
     font-family: sans-serif;
     font-size:14px;
@@ -122,6 +129,7 @@ p {
 #outsurance {
     width:235px;
 }
+
 
 
 
