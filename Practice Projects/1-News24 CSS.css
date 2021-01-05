@@ -100,14 +100,13 @@ p {
     font-size: 15px; !important;
 }
 #mostread {
-
     background-color: white;
     border:1px solid lightgrey;
     width:14%;
     position: absolute;
     margin-left: 943px;
     padding-left:25px;
-    padding-bottom: 15px;
+    padding-bottom: 22.5px;
 }
 
 #mostread ol {
@@ -128,6 +127,50 @@ p {
 }
 #outsurance {
     width:235px;
+}
+
+#industry {
+    background-color: white;
+    border:1px solid lightgrey;
+    width:250px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -620px;
+    padding-left:15px;
+    padding-bottom: 15px;
+    padding-right: 110px;
+}
+
+#industryarticle p {
+    font-family: sans-serif;
+    font-size:20px;
+    color:black; !important;
+}
+
+#forsubscribers {
+    width:150px;
+    padding-top: 20px;
+}
+
+#alcohol {
+    width:100px;
+    float:right;
+    padding-left: 90px;
+    position: absolute;
+    padding-top: 20px;
+}
+
+#timestamp {
+    height:20px;
+    float:left;
+    margin-right: 5px;
+}
+
+#time {
+    color: gray;
+    font-size:12px;
+    margin-top: 25px;
+    font-family: sans-serif;
 }
 
 
