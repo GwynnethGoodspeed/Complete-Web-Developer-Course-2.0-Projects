@@ -5,20 +5,61 @@
 
     <title>Javascript</title>
 
+    <style type="text/css">
+        #redCircle {
+            border-radius: 50%;
+            background-color: red;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin: 50px;
+        }
+
+        #blueCircle {
+            border-radius: 50%;
+            background-color: blue;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin: 50px;
+        }
+
+        #yellowCircle {
+            border-radius: 50%;
+            background-color: yellow;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin: 50px;
+        }
+    </style>
+
 </head>
 
 <body>
 
-<p id="redCircle">Red Circle</p>
+<div id="redCircle"></div>
 
-<p id="blueCircle">Blue Circle</p>
+<div id="blueCircle"></div>
 
-<p id="yellowCircle">Yellow Circle</p>
+<div id="yellowCircle"></div>
+
+    <script type="text/javascript">
+        document.getElementById("redCircle").onclick = function() {
+            document.getElementById("redCircle").style.display = "none";
+        }
+
+        document.getElementById("blueCircle").onclick = function() {
+            document.getElementById("blueCircle").style.display = "none";
+        }
+
+        document.getElementById("yellowCircle").onclick = function() {
+            document.getElementById("yellowCircle").style.display = "none";
+        }
+
+    </script>
 
 
-<script type="text/javascript">
-
-</script>
 
 
 </body>
