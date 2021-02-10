@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Sample Login Page</title>
+
+    <style type="text/css">
+        .container {
+            background-color: darkgrey;
+            width:800px;
+            height:600px;
+            margin: 40px auto;
+        }
+
+        .loginbox {
+            background-color: white;
+            width:600px;
+            height:500px;
+            margin: 50px 100px auto;
+            position:absolute;
+        }
+
+        #username {
+            position:relative;
+            margin: 70px 140px auto;
+            padding:10px;
+            width:300px;
+        }
+
+        #password {
+            position:relative;
+            margin: 50px 140px auto;
+            padding:10px;
+            width:300px;
+        }
+
+        #loginButton {
+            position:relative;
+            margin: 40px 250px auto;
+            padding:10px 30px 10px 30px;
+        }
+
+        h2 {
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="loginbox">
+        <h2>Login authentication system</h2>
+        <input type="text" id="username" placeholder="Enter your username">
+
+        <input type="text" id="password" placeholder="Enter your email">
+
+        <button id="loginButton">Login</button>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+
+    document.getElementById("loginButton").onclick = function() {
+        var usernameEntered = document.getElementById("username").value;
+
+        var username = "John";
+
+        var passwordEntered = document.getElementById("password").value;
+
+        var password = "john@deere.co.za"
+
+        if (usernameEntered == username ) {
+            alert("Username is correct!");
+        } else {
+            alert("Username is not correct, please try again!")
+        }
+        if(passwordEntered != password){
+            alert("Password is not correct, please try again!");
+        } else {
+            alert("Password is correct!");
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
